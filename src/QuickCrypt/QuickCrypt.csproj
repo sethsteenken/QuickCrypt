@@ -23,7 +23,7 @@
     <Summary>QuickCrypt is a .NET Standard library with services providing quick symmetric encryption.</Summary>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Title>QuickCrypt</Title>
-    <PackageId>Bunder</PackageId>
+    <PackageId>QuickCrypt</PackageId>
     <PackageTags>.NET netstandard core encryption decryption cryptography symmetric</PackageTags>
     <PackageProjectUrl>https://github.com/sethsteenken/QuickCrypt</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
