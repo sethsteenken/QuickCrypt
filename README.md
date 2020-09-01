@@ -53,9 +53,9 @@ public class SecureService
         
         string stringToEncrypt = GetSomeStringToEncrypt();
         
-        string encryptedString = _encrypt.EncryptToString(stringToEncrypt);
+        string encryptedString = _encryptor.EncryptToString(stringToEncrypt);
         
-        string decryptedString = _decrypt.DecryptToString(encryptedString);
+        string decryptedString = _decryptor.DecryptToString(encryptedString);
         
         // NOTE: byte array functions AND string functions can also convert from one or the other
     }
