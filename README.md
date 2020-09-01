@@ -1,7 +1,7 @@
 # QuickCrypt
 > .NET library providing quick and simple symmetric cryptographic functions using Simple Encryption (AES) and Authentication (HMAC). 
 
-QuickCrypt is a single .NET class library targeting the .NET Standard 2.0. Provides interfaces and implementation for encrypting and decrypting bytes and strings using symmetric cryptography. Also provides a random key generator to use during the cryptographic process.
+QuickCrypt is a simple .NET class library targeting the .NET Standard 2.0. Provides interfaces and implementation for encrypting and decrypting bytes and strings using symmetric cryptography. Also provides a random key generator to use during the cryptographic process.
 
 ## Installing and Setup
 
@@ -33,7 +33,7 @@ public class SecureService
     private readonly IEncryptor _encryptor;
     private readonly IDecryptor _decryptor;
   
-    public SecureService(IEncryptor encryptor, IDecryptor, decryptor)
+    public SecureService(IEncryptor encryptor, IDecryptor decryptor)
     {
         _encryptor = encryptor;
         _decryptor = decryptor;
